@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+body {
+  background: #f4f7fa;
+}
+.main {
+  width: 1193px;
+  height: 699px;
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  margin-left: -596.5px;
+  margin-top: -349.5px;
+  background: url(../images/isometric.png) no-repeat center;
+}
+.datasource {
+  position: absolute;
+  display: block;
+  width: 115px;
+  height: 430px;
+  left: 372px;
+  top: 37px;
+  transform: skew(-60deg, 30deg);
+}
+.designzone {
+  position: absolute;
+  display: block;
+  width: 262px;
+  height: 159px;
+  left: 445px;
+  top: 301px;
+  transform: skew(0, 30deg);
+}
